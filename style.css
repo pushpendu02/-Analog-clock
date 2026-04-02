@@ -1,0 +1,49 @@
+#clockcontainer {
+    /* background-color: brown; */
+    position: relative;
+    margin: auto;
+    border: 2px solid black;
+    height: 40vw;
+    width: 40vw;
+    background: url(pngtree-clock-face-no-hand-roboto-font-png-image_8363788.png);
+    background-size: 100%;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#hour {
+    height: 15%;
+    width: 1%;
+    top: 34.9%;
+    left: 49.5%;
+    opacity: 0.8;
+    /* display: none; */
+    
+}
+
+#minute {
+    height: 23%;
+    width: 0.7%;
+    top: 27.03%;
+    left: 49.5%;
+    opacity: 0.8;
+    /* display: none; */
+} 
+
+#second {
+    height: 27%;
+    width: 0.3%;
+    top: 23%;
+    left: 49.5%;
+    opacity: 0.8;
+    /* display: none;*/
+      
+}
